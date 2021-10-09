@@ -1,0 +1,87 @@
+
+body {
+  background-color: rgb(188, 75, 81);
+  color: black;
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
+h1 {
+  color: rgb(188, 75, 81);
+  font-family: Monospace;
+  font-weight: light;
+  font-size: 35px;
+
+  }
+  h2 {
+    font-family: Monospace;
+    font-size: 25px;
+    color: rgb(91, 142, 125);
+  }
+  a{text-decoration: none;
+    color: rgb(127, 85, 57);
+  }
+  a:hover {
+    color: rgb(113, 131, 85);
+  }
+
+  .button{
+  background-color: white;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.container{
+  width: 600px
+  margin:60px;
+  text-align: center;
+  margin: 10px 10px;
+}
+
+.card-white{
+  background-color: #e7c9a5;
+  padding: 60px
+  box-shadow: 0px 10px 30px rgba(0,0,0,0%);
+  border-radius:50px;
+  margin:10px 10px;
+  margin-top: 10px 10px;
+  text-align: center;
+  margin-left: auto;
+}
+
+
+.img-circle{
+  border-radius:50%;
+  border-color: #ff9292;
+}
+
+.btn-blue:hover{
+  background-color:black
+  color:white;
+}
+.logo{
+  color:#fcd1d1;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left:0px;
+}
+
+.list-inline li{
+  display: inline;
+  padding:30px;
+}
+
+.list-inline i{
+  font-size : 30px
+  color:rgb(230,230,230);
+
